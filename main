@@ -198,6 +198,14 @@ SettingTab:AddButton({
 OrionLib:Destroy()
    end
 })
+
+local HomeTab = Window:MakeTab({
+	Name = "Scripts More",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+InfoTab:AddLabel("Coming Soon...")
+
 InfoTab:AddLabel("Supported Executors:")
 InfoTab:AddLabel("Celery")
 InfoTab:AddLabel("Solara (rat dont use it)")
